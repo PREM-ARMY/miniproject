@@ -1,0 +1,59 @@
+
+/* Common styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 500px; 
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="radio"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the radio button container */
+.gender-options {
+    display: flex; /* Align radio buttons inline */
+    gap: 10px; /* Add space between units */
+    margin-bottom: 12px; /* Add space below the radio buttons */
+}
+
+/* Styles for each radio button and label pair */
+.gender-option {
+    display: flex;
+    align-items: center;
+}
+
